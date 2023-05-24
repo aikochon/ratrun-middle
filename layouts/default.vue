@@ -12,7 +12,7 @@
 
 <script>
 
-import AppHeader from "../components/organisms/Header/AppHeader.vue";
+import { AppHeader } from "../components/organisms/Header";
 
 export default {
     components: { 
