@@ -5,7 +5,7 @@
 
         <NuxtPage />
 
-        <p>フッター</p>
+        <AppFooter />
 
     </div>
 </template>
@@ -13,10 +13,15 @@
 <script>
 
 import { AppHeader } from "../components/organisms/Header";
+// 名前付きimport
+// AppHeader, index.js 同じフォルダで無かったからパスがおかしいと言われた
+
+import { AppFooter } from "../components/organisms/Footer";
 
 export default {
     components: { 
-        AppHeader
+        AppHeader,
+        AppFooter
     }
 };
 
