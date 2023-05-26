@@ -5,7 +5,7 @@
 
         <NuxtPage />
 
-        <p>フッター</p>
+        <p>フッタ-</p>
 
     </div>
 </template>
