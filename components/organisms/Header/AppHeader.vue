@@ -1,14 +1,16 @@
 <template>
   <div>
-    <nav>
-      <li v-for="(link, key) in LinkList" :key="key">
-        <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
-      </li>
-    </nav>
+    <div>
+      <nav>
+        <li v-for="(link, key) in LinkList" :key="key">
+          <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
+        </li>
+      </nav>
+    </div>
   </div>
 </template>
-
-<script>
+      
+      <script>
 export default {
   setup() {
     const LinkList = reactive([
@@ -22,18 +24,22 @@ export default {
   },
 };
 </script>
-
-<style lang='scss' scoped>
+      
+  <style lang='scss' scoped>
 nav {
   display: flex;
   gap: 20px;
   padding: 30px 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 </style>
