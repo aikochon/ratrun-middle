@@ -210,32 +210,71 @@
           <p>事業目的 VISION</p>
         </div>
         <div class="smallsection-vision">
-          <div class="vision-img">
-            <img src="../assets/img/phone.png" alt="visionpic" />
+          <div class="vision-blocks">
+            <div class="vision-img">
+              <img src="../assets/img/phone.png" alt="visionpic" />
+            </div>
+            <div class="vision-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+              </p>
+            </div>
+            <div class="vision-button">
+              <LinkButton text="詳しく見る" href="#" />
+            </div>
           </div>
-          <div class="vision-details">
-            <p>
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text <br />
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text text text text text text
-              text text text text text text text text <br />
-            </p>
+          <div class="vision-blocks">
+            <div class="vision-img">
+              <img src="../assets/img/phone.png" alt="visionpic" />
+            </div>
+            <div class="vision-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+              </p>
+            </div>
+            <div class="vision-button">
+              <LinkButton text="詳しく見る" href="#" />
+            </div>
           </div>
-          <div class="vision-button"></div>
+          <div class="vision-blocks">
+            <div class="vision-img">
+              <img src="../assets/img/phone.png" alt="visionpic" />
+            </div>
+            <div class="vision-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+              </p>
+            </div>
+            <div class="vision-button">
+              <LinkButton text="詳しく見る" href="#" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
     
-    <script>
-export default {};
+<script>
+import { BasicButton, LinkButton } from "../components/atoms/Buttons";
+export default {
+  components: {
+    BasicButton,
+    LinkButton,
+  },
+};
 </script>
     
     <style lang='scss' scoped>
@@ -302,5 +341,28 @@ td {
   text-align: center;
   font-size: 30px;
   padding: 20px 0px 20px 0px;
+}
+.smallsection-vision {
+  display: flex;
+}
+.vision-blocks {
+  margin: auto;
+}
+.vision-details {
+  width: 470px;
+  margin: auto;
+  padding: 40px 0px 40px 0px;
+}
+.vision-button {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  background-color: cadetblue;
+  color: white;
+}
+.a {
+  vertical-align: middle;
 }
 </style>
