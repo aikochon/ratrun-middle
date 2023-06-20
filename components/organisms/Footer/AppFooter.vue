@@ -40,7 +40,7 @@
       <div class="sns-area">
         <nav class="sns-links">
           <li v-for="(link, key) in LinkListSnsLine" :key="key">
-            <nuxt-link :to="link.to">{{ link.text }}</nuxt-link>
+            <a :href="link.to"><img :src="link.imgSrc" /></a>
           </li>
         </nav>
       </div>
