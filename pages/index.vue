@@ -355,7 +355,7 @@
         <div class="smallsection-design-top">
           <div class="design-blocks">
             <div class="design-img">
-              <img src="../assets/img/design.png" alt="designpic" />
+              <img src="../assets/img/phone.png" alt="designpic" />
             </div>
             <div class="design-smalltitle">
               <div class="design-titlenumber"><p>1</p></div>
@@ -376,7 +376,7 @@
           </div>
           <div class="design-blocks">
             <div class="design-img">
-              <img src="../assets/img/design.png" alt="designpic" />
+              <img src="../assets/img/phone.png" alt="designpic" />
             </div>
             <div class="design-smalltitle">
               <div class="design-titlenumber"><p>2</p></div>
@@ -397,7 +397,7 @@
           </div>
           <div class="design-blocks">
             <div class="design-img">
-              <img src="../assets/img/design.png" alt="designpic" />
+              <img src="../assets/img/phone.png" alt="designpic" />
             </div>
             <div class="design-smalltitle">
               <div class="design-titlenumber"><p>3</p></div>
@@ -420,7 +420,7 @@
         <div class="smallsection-design-bottom">
           <div class="design-blocks">
             <div class="design-img">
-              <img src="../assets/img/design.png" alt="designpic" />
+              <img src="../assets/img/phone.png" alt="designpic" />
             </div>
             <div class="design-smalltitle">
               <div class="design-titlenumber"><p>4</p></div>
@@ -441,7 +441,7 @@
           </div>
           <div class="design-blocks">
             <div class="design-img">
-              <img src="../assets/img/design.png" alt="designpic" />
+              <img src="../assets/img/phone.png" alt="designpic" />
             </div>
             <div class="design-smalltitle">
               <div class="design-titlenumber"><p>5</p></div>
@@ -460,6 +460,76 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="section-designdetails">
+        <div class="designdetails-title">
+          <p>デザインの概要</p>
+        </div>
+        <div class="designdetails-table">
+          <table>
+            <tr>
+              <th>空間に与える印象</th>
+              <th>写真</th>
+              <th>使用のポイント</th>
+            </tr>
+            <tr>
+              <td>空間を和らげ、安らぎを感じる</td>
+              <td><img src="../assets/img/philosophy.png" /></td>
+              <td>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text
+              </td>
+            </tr>
+            <tr>
+              <td>空間を和らげ、安らぎを感じる</td>
+              <td><img src="../assets/img/philosophy.png" /></td>
+              <td>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text
+              </td>
+            </tr>
+            <tr>
+              <td>空間を和らげ、安らぎを感じる</td>
+              <td><img src="../assets/img/philosophy.png" /></td>
+              <td>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text
+              </td>
+            </tr>
+            <tr>
+              <td>空間を和らげ、安らぎを感じる</td>
+              <td><img src="../assets/img/philosophy.png" /></td>
+              <td>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
       <BasicAccordion />
@@ -529,6 +599,7 @@ img {
   height: 470px;
   width: 80%;
   display: flex;
+  justify-content: center;
   padding: 50px 50px;
   margin: 0 auto;
 }
@@ -536,6 +607,7 @@ img {
   height: 190%;
   width: 80%;
   display: flex;
+  justify-content: center;
   padding: 50px 50px;
   margin: 0 auto;
 }
@@ -543,6 +615,7 @@ img {
   height: 300px;
   width: 80%;
   display: flex;
+  justify-content: center;
   margin: 30px auto;
 }
 
@@ -587,6 +660,7 @@ td {
 }
 .smallsection-vision {
   display: flex;
+  justify-content: center;
 }
 .vision-blocks {
   margin: auto;
@@ -612,9 +686,11 @@ td {
 }
 .smallsection-mission {
   display: flex;
+  justify-content: center;
 }
 .mission-smalltitle {
   display: flex;
+  justify-content: center;
   width: 50%;
   margin: auto;
 }
@@ -637,5 +713,58 @@ td {
 }
 .mission-img {
   width: 90%;
+}
+
+/**/
+.section-design {
+  border-bottom: solid 1px gray;
+  padding-bottom: 100px;
+}
+.design-title {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px 0px;
+}
+.smallsection-design-top {
+  display: flex;
+  justify-content: center;
+}
+.smallsection-design-bottom {
+  display: flex;
+  justify-content: center;
+}
+.design-blocks {
+  width: 30%;
+  margin: 20px 20px;
+  background-color: lightgrey;
+}
+.design-img {
+  padding: 0 0;
+  margin: 0;
+}
+.design-smalltitle {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+.design-titlenumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 10px 10px;
+  line-height: 0px;
+  border: solid 1px black;
+}
+.design-stitle {
+  font-size: 25px;
+  text-align: center;
+  line-height: 15px;
+}
+.design-details {
+  padding: 20px;
 }
 </style>
