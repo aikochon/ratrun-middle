@@ -10,3 +10,9 @@ export default {
   setup() {},
 };
 </script>
+<style lang='scss' scoped>
+a {
+  background-color: cadetblue;
+  color: white;
+}
+</style>

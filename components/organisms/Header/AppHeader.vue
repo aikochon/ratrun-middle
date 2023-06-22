@@ -30,7 +30,7 @@ nav {
   display: flex;
   gap: 20px;
   padding: 30px 20px;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   z-index: 1;

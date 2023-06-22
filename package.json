@@ -12,5 +12,8 @@
     "@types/node": "^18",
     "nuxt": "^3.5.1",
     "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "^0.7.1"
   }
 }

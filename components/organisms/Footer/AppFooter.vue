@@ -40,7 +40,9 @@
       <div class="sns-area">
         <nav class="sns-links">
           <li v-for="(link, key) in LinkListSnsLine" :key="key">
-            <a :href="link.to"><img :src="link.imgSrc" /></a>
+            <a :href="link.to">
+              <img :src="getImg(link.imgSrc)" alt="" />
+            </a>
           </li>
         </nav>
       </div>
@@ -50,6 +52,7 @@
   
   <script>
 export default {
+  components: ["nuxt-img"],
   setup() {
     const LinkList = reactive([
       { text: "ホーム", to: "#" },
@@ -65,22 +68,18 @@ export default {
       { text: "個人情報保護法について", to: "#" },
     ]);
     const LinkListSnsLine = reactive([
-      { text: "facebook", to: "#", imgSrc: "../../../assets/img/facebook.png" },
-      {
-        text: "instagram",
-        to: "#",
-        imgSrc: "../../../assets/img/instagram.png",
-      },
-      {
-        text: "pintarest",
-        to: "#",
-        imgSrc: "../../../assets/img/pintarest.png",
-      },
+      { text: "facebook", to: "#", imgSrc: "facebook.png" },
+      { text: "instagram", to: "#", imgSrc: "instagram.png" },
+      { text: "pintarest", to: "#", imgSrc: "pintarest.png" },
     ]);
+    const getImg = (file) => {
+      return new URL("../../../assets/img/${file}", import.meta.url).href;
+    };
     return {
       LinkList,
       LinkListSecondLine,
       LinkListSnsLine,
+      getImg,
     };
   },
 };
