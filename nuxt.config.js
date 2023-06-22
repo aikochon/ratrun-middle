@@ -4,17 +4,18 @@
 // })
 
 export default defineNuxtConfig({
-    css: ["assets/scss/main.scss"],
-    
-    ssr: false,
+  css: ["assets/scss/main.scss"],
 
-    vite: {
-        css: {
-            preprocessorOptions: {
-                scss: {
-                    additionalData: '@import "@/assets/scss/common.scss";',
-                },
-            },
+  ssr: false,
+  buildModules: ["@nuxt/image"],
+
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "@/assets/scss/common.scss";',
         },
+      },
     },
+  },
 });

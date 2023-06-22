@@ -14,195 +14,189 @@
         </div>
       </div>
     </div>
-    <div class="section-aboutus">
-      <div class="aboutus-maintitle">
-        <p>メインのタイトル</p>
-      </div>
-      <div class="aboutus-details">
-        <p>
-          about us about us about us about us about us about us about us about
-          us about us <br />
-          about us about us about us about us about us about us about us about
-          us about us about us <br />
-          about us about us about us about us about us about us about us about
-          us about us about us <br />
-        </p>
-      </div>
-    </div>
-    <div class="section-cphilosophy">
-      <div class="cphilosophy-maintitle">
-        <p>経営理念 PHILOSOPHY</p>
-      </div>
-      <div class="smallsection-cphilosophy">
-        <div class="cphilosophy-img">
-          <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+    <div class="body">
+      <div class="section-aboutus">
+        <div class="aboutus-maintitle">
+          <p>メインのタイトル</p>
         </div>
-        <div class="cphilosophy-details">
+        <div class="aboutus-details">
           <p>
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
+            about us about us about us about us about us about us about us about
+            us about us <br />
+            about us about us about us about us about us about us about us about
+            us about us about us <br />
+            about us about us about us about us about us about us about us about
+            us about us about us <br />
           </p>
         </div>
       </div>
-      <div class="smallsection-cphilosophy">
-        <div class="cphilosophy-details">
-          <p>
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-          </p>
+      <div class="section-cphilosophy">
+        <div class="cphilosophy-maintitle">
+          <p>経営理念 PHILOSOPHY</p>
         </div>
-        <div class="cphilosophy-img">
-          <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+        <div class="smallsection-cphilosophy-one">
+          <div class="cphilosophy-img-one">
+            <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+          </div>
+          <div class="cphilosophy-details-one">
+            <p>
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="smallsection-cphilosophy">
-        <div class="cphilosophy-img">
-          <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+        <div class="smallsection-cphilosophy-one">
+          <div class="cphilosophy-details-one">
+            <p>
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+            </p>
+          </div>
+          <div class="cphilosophy-img-one">
+            <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+          </div>
         </div>
-        <div class="cphilosophy-img">
-          <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+        <div class="smallsection-cphilosophy-two">
+          <div class="cphilosophy-block">
+            <div class="cphilosophy-img-two">
+              <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+            </div>
+            <div class="cphilosophy-details-two">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="cphilosophy-block">
+            <div class="cphilosophy-img-two">
+              <img src="../assets/img/philosophy.png" alt="cphilosophypic" />
+            </div>
+            <div class="cphilosophy-details-two">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text <br />
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="smallsection-cphilosophy">
-        <div class="cphilosophy-details">
-          <p>
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-          </p>
-        </div>
-        <div class="cphilosophy-details">
-          <p>
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-          </p>
-        </div>
-      </div>
-      <div class="smallsection-cphilosophy">
-        <div class="cphilosophy-details">
-          <p>
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text <br />
-          </p>
-        </div>
-        <div class="cphilosophy-details">
-          <table>
-            <tr>
-              <th>竣工年 :</th>
-              <td>2017年</td>
-            </tr>
-            <tr>
-              <th>計画地 :</th>
-              <td>愛知県名古屋市</td>
-            </tr>
-            <tr>
-              <th>構造・面積 :</th>
-              <td>木造2階建 96 ㎡</td>
-            </tr>
-            <tr>
-              <th>工期 :</th>
-              <td>2017年 9月〜11月</td>
-            </tr>
-            <tr>
-              <th>業務内容 :</th>
-              <td>
-                インテリアデザイン、施工マネジメント、texttexttexttexttexttext
-              </td>
-            </tr>
-            <tr>
-              <th>クライアント :</th>
-              <td>個人</td>
-            </tr>
-          </table>
+        <div class="smallsection-cphilosophy-three">
+          <div class="cphilosophy-details-one">
+            <p>
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text text text text text text
+              text text text text text text text text <br />
+            </p>
+          </div>
+          <div class="cphilosophy-details-one">
+            <table>
+              <tr>
+                <th>竣工年 :</th>
+                <td>2017年</td>
+              </tr>
+              <tr>
+                <th>計画地 :</th>
+                <td>愛知県名古屋市</td>
+              </tr>
+              <tr>
+                <th>構造・面積 :</th>
+                <td>木造2階建 96 ㎡</td>
+              </tr>
+              <tr>
+                <th>工期 :</th>
+                <td>2017年 9月〜11月</td>
+              </tr>
+              <tr>
+                <th>業務内容 :</th>
+                <td>
+                  インテリアデザイン、施工マネジメント、texttexttexttexttexttext
+                </td>
+              </tr>
+              <tr>
+                <th>クライアント :</th>
+                <td>個人</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
       <div class="section-vision">
@@ -263,67 +257,310 @@
           </div>
         </div>
       </div>
+      <div class="section-mission">
+        <div class="mission-title">
+          <p>事業使命 MISSION</p>
+        </div>
+        <div class="smallsection-mission">
+          <div class="mission-blocks">
+            <div class="mission-smalltitle">
+              <div class="mission-titlenumber"><p>1</p></div>
+              <div class="mission-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="mission-img">
+              <img src="../assets/img/mission.png" alt="missionpic" />
+            </div>
+            <div class="mission-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="mission-blocks">
+            <div class="mission-smalltitle">
+              <div class="mission-titlenumber"><p>2</p></div>
+              <div class="mission-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="mission-img">
+              <img src="../assets/img/mission.png" alt="missionpic" />
+            </div>
+            <div class="mission-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="mission-blocks">
+            <div class="mission-smalltitle">
+              <div class="mission-titlenumber"><p>3</p></div>
+              <div class="mission-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="mission-img">
+              <img src="../assets/img/mission.png" alt="missionpic" />
+            </div>
+            <div class="mission-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="mission-blocks">
+            <div class="mission-smalltitle">
+              <div class="mission-titlenumber"><p>4</p></div>
+              <div class="mission-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="mission-img">
+              <img src="../assets/img/mission.png" alt="missionpic" />
+            </div>
+            <div class="mission-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-design">
+        <div class="design-title">
+          <p>技術情報とデザインと思想</p>
+        </div>
+        <div class="smallsection-design-top">
+          <div class="design-blocks">
+            <div class="design-img">
+              <img src="../assets/img/design.png" alt="designpic" />
+            </div>
+            <div class="design-smalltitle">
+              <div class="design-titlenumber"><p>1</p></div>
+              <div class="design-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="design-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="design-blocks">
+            <div class="design-img">
+              <img src="../assets/img/design.png" alt="designpic" />
+            </div>
+            <div class="design-smalltitle">
+              <div class="design-titlenumber"><p>2</p></div>
+              <div class="design-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="design-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="design-blocks">
+            <div class="design-img">
+              <img src="../assets/img/design.png" alt="designpic" />
+            </div>
+            <div class="design-smalltitle">
+              <div class="design-titlenumber"><p>3</p></div>
+              <div class="design-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="design-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="smallsection-design-bottom">
+          <div class="design-blocks">
+            <div class="design-img">
+              <img src="../assets/img/design.png" alt="designpic" />
+            </div>
+            <div class="design-smalltitle">
+              <div class="design-titlenumber"><p>4</p></div>
+              <div class="design-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="design-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+          <div class="design-blocks">
+            <div class="design-img">
+              <img src="../assets/img/design.png" alt="designpic" />
+            </div>
+            <div class="design-smalltitle">
+              <div class="design-titlenumber"><p>5</p></div>
+              <div class="design-stitle"><p>技術確認</p></div>
+            </div>
+            <div class="design-details">
+              <p>
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text text text text text text text text text text text
+                text text text <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <BasicAccordion />
     </div>
   </div>
 </template>
     
 <script>
 import { BasicButton, LinkButton } from "../components/atoms/Buttons";
+import { BasicAccordion } from "../components/atoms/Accordions";
 export default {
   components: {
     BasicButton,
     LinkButton,
+    BasicAccordion,
   },
 };
 </script>
     
     <style lang='scss' scoped>
+.body {
+  width: 80%;
+  margin: auto;
+}
+img {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+/**/
 .section-top-cphilosophy {
-  background-color: darkslateblue;
+  background-image: url(../assets/img/cyber-g15cd33eba_1920.png);
+  background-size: cover;
   color: white;
+  height: 700px;
 }
 .top-cphilosophy-area {
   width: 400px;
   padding: 50px 100px 200px 0px;
-  margin: 0 0 0 auto;
+  margin-left: auto;
 }
 .top-cphilosophy-title {
   font-size: 30px;
 }
+
+/**/
 .aboutus-maintitle {
   text-align: center;
   font-size: 30px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
 }
 .aboutus-details {
   text-align: center;
-  padding: 50px 0px 50px 0px;
+  padding: 50px 0px;
 }
+
+/**/
 .section-cphilosophy {
-  border-bottom: solid 1px;
+  border-bottom: solid 1px gray;
 }
 .cphilosophy-maintitle {
   text-align: center;
   font-size: 30px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px;
 }
-.smallsection-cphilosophy {
+.smallsection-cphilosophy-one {
   height: 470px;
-  width: 90%;
+  width: 80%;
   display: flex;
-  padding: 0px 0px 0px 0px;
+  padding: 50px 50px;
   margin: 0 auto;
 }
-.cphilosophy-img {
-  padding: 20px 30px 20px 30px;
+.smallsection-cphilosophy-two {
+  height: 190%;
+  width: 80%;
+  display: flex;
+  padding: 50px 50px;
+  margin: 0 auto;
 }
-img {
-  height: 93%;
+.smallsection-cphilosophy-three {
+  height: 300px;
+  width: 80%;
+  display: flex;
+  margin: 30px auto;
 }
-.cphilosophy-details {
-  padding: 20px 30px 20px 30px;
-  width: 50%;
+
+.cphilosophy-img-one {
+  width: 45%;
+  padding: 20px 20px;
 }
+.cphilosophy-details-one {
+  width: 45%;
+  margin: auto;
+}
+.cphilosophy-block {
+  width: 45%;
+  height: 190%;
+  margin: auto;
+}
+
+/**/
 table {
   border-collapse: collapse;
   margin: 20px 0 0 0;
@@ -337,10 +574,16 @@ th {
 td {
   border: solid 1px;
 }
+
+/**/
+.section-vision {
+  border-bottom: solid 1px gray;
+  padding-bottom: 100px;
+}
 .vision-title {
   text-align: center;
   font-size: 30px;
-  padding: 20px 0px 20px 0px;
+  padding: 50px 0px;
 }
 .smallsection-vision {
   display: flex;
@@ -351,18 +594,48 @@ td {
 .vision-details {
   width: 470px;
   margin: auto;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px;
 }
-.vision-button {
-  width: 200px;
-  height: 50px;
+.vision-button LinkButton {
+  text-align: center;
+}
+
+/**/
+.section-mission {
+  border-bottom: solid 1px gray;
+  padding-bottom: 100px;
+}
+.mission-title {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px 0px;
+}
+.smallsection-mission {
+  display: flex;
+}
+.mission-smalltitle {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+.mission-titlenumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: grey;
+  color: white;
   text-align: center;
   vertical-align: middle;
-  margin: auto;
-  background-color: cadetblue;
-  color: white;
+  font-size: 20px;
+  margin: 10px 10px;
+  line-height: 5px;
 }
-.a {
-  vertical-align: middle;
+.mission-stitle {
+  font-size: 25px;
+  text-align: center;
+  line-height: 15px;
+}
+.mission-img {
+  width: 90%;
 }
 </style>

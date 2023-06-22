@@ -40,7 +40,9 @@
       <div class="sns-area">
         <nav class="sns-links">
           <li v-for="(link, key) in LinkListSnsLine" :key="key">
-            <a :href="link.to"><img :src="link.imgSrc" /></a>
+            <a :href="link.to">
+              <nuxt-img :src="link.imgSrc" alt="" />
+            </a>
           </li>
         </nav>
       </div>
@@ -50,6 +52,7 @@
   
   <script>
 export default {
+  components: ["nuxt-img"],
   setup() {
     const LinkList = reactive([
       { text: "ホーム", to: "#" },
