@@ -275,10 +275,6 @@
                 text text text text text text text text text text text text text
                 text text text text text text text text text text text text text
                 text text text text text text text text text text text text text
-                text text text text text text text text text text text text text
-                text text text text text text text text text text text text text
-                text text text text text text text text text text text text text
-                text text text text text text text text text text text text text
                 text text text <br />
               </p>
             </div>
@@ -463,6 +459,7 @@
         </div>
       </div>
       <BasicAccordion />
+      <p>これはテストです</p>
     </div>
   </div>
 </template>
