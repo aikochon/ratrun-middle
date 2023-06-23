@@ -12,6 +12,7 @@ export default {
 </script>
 <style lang='scss' scoped>
 a {
+  width: 100%;
   background-color: cadetblue;
   color: white;
 }

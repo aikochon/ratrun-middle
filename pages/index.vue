@@ -200,7 +200,7 @@
         </div>
       </div>
       <div class="section-vision">
-        <div class="vision-title">
+        <div class="vision-maintitle">
           <p>事業目的 VISION</p>
         </div>
         <div class="smallsection-vision">
@@ -258,7 +258,7 @@
         </div>
       </div>
       <div class="section-mission">
-        <div class="mission-title">
+        <div class="mission-maintitle">
           <p>事業使命 MISSION</p>
         </div>
         <div class="smallsection-mission">
@@ -349,7 +349,7 @@
         </div>
       </div>
       <div class="section-design">
-        <div class="design-title">
+        <div class="design-maintitle">
           <p>技術情報とデザインと思想</p>
         </div>
         <div class="smallsection-design-top">
@@ -463,7 +463,7 @@
         </div>
       </div>
       <div class="section-designdetails">
-        <div class="designdetails-title">
+        <div class="designdetails-maintitle">
           <p>デザインの概要</p>
         </div>
         <div class="designdetails-table">
@@ -532,7 +532,122 @@
           </table>
         </div>
       </div>
-      <BasicAccordion />
+      <div class="section-prize">
+        <div class="prize-maintitle">
+          <p>デザイン受賞歴</p>
+        </div>
+        <div class="prize-details">
+          <p>
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text<br />
+          </p>
+        </div>
+        <div class="prize-box">
+          <div><p>2012年8月</p></div>
+          <div>
+            <ul>
+              <li>JDC金賞 text text text</li>
+              <li>JDC審査員特別賞 text text text</li>
+            </ul>
+          </div>
+        </div>
+        <div class="prize-box">
+          <div><p>2012年8月</p></div>
+          <div>
+            <ul>
+              <li>JDC金賞 text text text</li>
+              <li>JDC審査員特別賞 text text text</li>
+            </ul>
+          </div>
+        </div>
+        <div class="prize-box">
+          <div><p>2012年8月</p></div>
+          <div>
+            <ul>
+              <li>JDC金賞 text text text</li>
+              <li>JDC審査員特別賞 text text text</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section-repredesign">
+        <div class="repredesign-maintitle">
+          <p>代表デザイン事例</p>
+        </div>
+        <ul>
+          <li><LinkButton text="店舗" href="#" /></li>
+          <li><LinkButton text="テナント" href="#" /></li>
+          <li><LinkButton text="オフィス" href="#" /></li>
+          <li><LinkButton text="インテリア" href="#" /></li>
+          <li><LinkButton text="什器" href="#" /></li>
+        </ul>
+        <div class="repredesign-maintitle">
+          <p>バーチャルオフィス</p>
+        </div>
+        <div class="repredesign-slide"></div>
+        <div class="repredesign-details">
+          <p>
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text<br />
+          </p>
+        </div>
+      </div>
+      <div class="section-point">
+        <div class="point-maintitle">
+          <p>製作時のポイント</p>
+        </div>
+        <BasicAccordion
+          title="アコーディオン"
+          description="text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text"
+        />
+        <BasicAccordion
+          title="アコーディオン"
+          description="text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text"
+        />
+        <BasicAccordion
+          title="アコーディオン"
+          description="text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text"
+        />
+      </div>
+      <div class="section-future">
+        <div class="future-maintitle">
+          <p>未来の展望</p>
+        </div>
+        <div class="future-details">
+          <p>
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text text text text text text text text text text text
+            text text text<br />
+          </p>
+        </div>
+        <LinkButton text="お問合せ・お見積もり" href="#" />
+      </div>
     </div>
   </div>
 </template>
@@ -559,7 +674,7 @@ img {
   padding: 30px 0px;
 }
 
-/**/
+/*-------------------*/
 .section-top-cphilosophy {
   background-image: url(../assets/img/cyber-g15cd33eba_1920.png);
   background-size: cover;
@@ -575,10 +690,10 @@ img {
   font-size: 30px;
 }
 
-/**/
+/*-------------------*/
 .aboutus-maintitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 20px 0px;
 }
 .aboutus-details {
@@ -586,13 +701,13 @@ img {
   padding: 50px 0px;
 }
 
-/**/
+/*-------------------*/
 .section-cphilosophy {
   border-bottom: solid 1px gray;
 }
 .cphilosophy-maintitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 20px 0px;
 }
 .smallsection-cphilosophy-one {
@@ -633,29 +748,29 @@ img {
   margin: auto;
 }
 
-/**/
-table {
+/*-------------------*/
+.cphilosophy-details-one table {
   border-collapse: collapse;
   margin: 20px 0 0 0;
 }
-th {
+.cphilosophy-details-one th {
   border: solid 1px;
   width: 30%;
   text-align: left;
   background-color: lightgray;
 }
-td {
+.cphilosophy-details-one td {
   border: solid 1px;
 }
 
-/**/
+/*-------------------*/
 .section-vision {
   border-bottom: solid 1px gray;
   padding-bottom: 100px;
 }
-.vision-title {
+.vision-maintitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 50px 0px;
 }
 .smallsection-vision {
@@ -674,14 +789,14 @@ td {
   text-align: center;
 }
 
-/**/
+/*-------------------*/
 .section-mission {
   border-bottom: solid 1px gray;
   padding-bottom: 100px;
 }
-.mission-title {
+.mission-maintitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 50px 0px;
 }
 .smallsection-mission {
@@ -715,14 +830,14 @@ td {
   width: 90%;
 }
 
-/**/
+/*-------------------*/
 .section-design {
   border-bottom: solid 1px gray;
   padding-bottom: 100px;
 }
-.design-title {
+.design-maintitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   padding: 50px 0px;
 }
 .smallsection-design-top {
@@ -766,5 +881,118 @@ td {
 }
 .design-details {
   padding: 20px;
+}
+
+/*-------------------*/
+.section-designdetails {
+  border-bottom: solid 1px gray;
+  padding-bottom: 100px;
+}
+.designdetails-maintitle {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0px;
+}
+.designdetails-table table {
+  border-collapse: collapse;
+}
+.designdetails-table th {
+  text-align: center;
+  width: 30%;
+  height: 100px;
+  border: solid 1px black;
+  background-color: lightgray;
+  font-size: 27px;
+  color: white;
+}
+.designdetails-table td {
+  border: solid 1px;
+  text-align: center;
+  height: 250px;
+}
+.designdetails-table img {
+  width: 70%;
+}
+
+/*-------------------*/
+.section-prize {
+  border-bottom: solid 1px gray;
+  padding-bottom: 100px;
+}
+.prize-maintitle {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+}
+.prize-details {
+  width: 80%;
+  text-align: center;
+  padding: 30px 0px;
+  margin: 0 auto;
+}
+.prize-box {
+  display: flex;
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+  border-bottom: solid 1px gray;
+}
+.prize-box p {
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+/*-------------------*/
+.section-repredesign {
+  padding-bottom: 100px;
+}
+.repredesign-maintitle {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0px;
+}
+.section-repredesign ul {
+  display: flex;
+  gap: 20px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+.section-repredesign li {
+  list-style: none;
+  width: 200px;
+  background-color: cornflowerblue;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.repredesign-details {
+  border: solid 1px;
+  padding: 10px;
+}
+
+/*-------------------*/
+.point-maintitle {
+  font-size: 50px;
+  padding-top: 50px;
+  border-bottom: solid 1px gray;
+}
+
+/*-------------------*/
+.section-future {
+  padding-bottom: 200px;
+}
+.future-maintitle {
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+.future-details {
+  width: 80%;
+  text-align: center;
+  padding: 30px 0px;
+  margin: 0 auto;
+}
+.section-future LinkButton {
+  width: 300px;
 }
 </style>
