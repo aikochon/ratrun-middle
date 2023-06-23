@@ -73,7 +73,7 @@ export default {
       { text: "pintarest", to: "#", imgSrc: "pintarest.png" },
     ]);
     const getImg = (file) => {
-      return new URL("../../../assets/img/${file}", import.meta.url).href;
+      return new URL(`../../../assets/img/${file}`, import.meta.url).href;
     };
     return {
       LinkList,

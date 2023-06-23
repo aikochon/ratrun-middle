@@ -590,7 +590,9 @@
         <div class="repredesign-maintitle">
           <p>バーチャルオフィス</p>
         </div>
-        <div class="repredesign-slide"></div>
+        <div class="repredesign-slide">
+          <CarouselSlider :images="SlidePics" />
+        </div>
         <div class="repredesign-details">
           <p>
             text text text text text text text text text text text text text
@@ -655,11 +657,19 @@
 <script>
 import { BasicButton, LinkButton } from "../components/atoms/Buttons";
 import { BasicAccordion } from "../components/atoms/Accordions";
+import { CarouselSlider } from "../components/atoms/Carousel";
 export default {
   components: {
     BasicButton,
     LinkButton,
     BasicAccordion,
+    CarouselSlider,
+  },
+  setup() {
+    const SlidePics = reactive(["office.png", "office.png", "office.png"]);
+    return {
+      SlidePics,
+    };
   },
 };
 </script>
