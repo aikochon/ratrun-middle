@@ -648,7 +648,11 @@
             text text text<br />
           </p>
         </div>
-        <LinkButton text="お問合せ・お見積もり" href="#" />
+        <LinkButton
+          text="お問合せ・お見積もり"
+          href="#"
+          class="future-LinkButton"
+        />
       </div>
     </div>
   </div>
@@ -1004,5 +1008,15 @@ img {
 }
 .section-future LinkButton {
   width: 300px;
+}
+.future-LinkButton {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  height: 80px;
+  line-height: 300%;
+  border-radius: 20px;
+  font-size: 25px;
+  background-color: darkslateblue;
 }
 </style>
