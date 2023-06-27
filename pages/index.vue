@@ -217,9 +217,7 @@
                 text text text text text text text text <br />
               </p>
             </div>
-            <div class="vision-button">
-              <LinkButton text="詳しく見る" href="#" />
-            </div>
+            <LinkButton text="詳しく見る" href="#" class="vision-button" />
           </div>
           <div class="vision-blocks">
             <div class="vision-img">
@@ -234,9 +232,7 @@
                 text text text text text text text text <br />
               </p>
             </div>
-            <div class="vision-button">
-              <LinkButton text="詳しく見る" href="#" />
-            </div>
+            <LinkButton text="詳しく見る" href="#" class="vision-button" />
           </div>
           <div class="vision-blocks">
             <div class="vision-img">
@@ -251,9 +247,7 @@
                 text text text text text text text text <br />
               </p>
             </div>
-            <div class="vision-button">
-              <LinkButton text="詳しく見る" href="#" />
-            </div>
+            <LinkButton text="詳しく見る" href="#" class="vision-button" />
           </div>
         </div>
       </div>
@@ -696,12 +690,15 @@ img {
   height: 700px;
 }
 .top-cphilosophy-area {
-  width: 400px;
-  padding: 50px 100px 200px 0px;
+  width: 30%;
+  padding: 150px 100px 200px 0px;
   margin-left: auto;
 }
 .top-cphilosophy-title {
-  font-size: 30px;
+  font-size: 50px;
+}
+.top-cphilosophy-detail {
+  width: 100%;
 }
 
 /*-------------------*/
@@ -799,8 +796,16 @@ img {
   margin: auto;
   padding: 40px 0px;
 }
-.vision-button LinkButton {
+.vision-button {
+  width: 50%;
   text-align: center;
+  background-color: darkslateblue;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  left: 50%;
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 /*-------------------*/
@@ -967,6 +972,7 @@ img {
 }
 .section-repredesign ul {
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding: 0px 20px;
   margin: 0 auto;
@@ -974,10 +980,11 @@ img {
 .section-repredesign li {
   list-style: none;
   width: 200px;
-  background-color: cornflowerblue;
+  background-color: darkslateblue;
   text-align: center;
   height: 50px;
   line-height: 50px;
+  font-size: 25px;
 }
 .repredesign-details {
   border: solid 1px;
@@ -1014,9 +1021,9 @@ img {
   text-align: center;
   margin: 0 auto;
   height: 80px;
-  line-height: 300%;
+  line-height: 80px;
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 30px;
   background-color: darkslateblue;
 }
 </style>

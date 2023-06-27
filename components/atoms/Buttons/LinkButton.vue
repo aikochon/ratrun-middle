@@ -16,5 +16,6 @@ export default {
 a {
   width: 100%;
   color: white;
+  text-decoration: none;
 }
 </style>
