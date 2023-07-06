@@ -970,6 +970,8 @@ img {
   font-size: 50px;
   padding: 50px 0px;
 }
+.repredesign-slide {
+}
 .section-repredesign ul {
   display: flex;
   justify-content: center;
