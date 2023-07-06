@@ -30,3 +30,19 @@ export default {
   },
 };
 </script>
+<style lang='scss' scoped>
+button {
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  text-align: left;
+  margin: 20px 0;
+  border: 0;
+  background-color: dimgrey;
+  color: white;
+  padding-left: 20px;
+}
+p {
+  background-color: lightgray;
+}
+</style>

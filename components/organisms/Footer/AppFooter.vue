@@ -7,9 +7,9 @@
         alt="Logo"
       />
       <p class="company-name">
-        Interior<br />
+        Interior design<br />
         &<br />
-        design
+        Constraction
       </p>
     </div>
     <div class="link-area">
@@ -73,7 +73,7 @@ export default {
       { text: "pintarest", to: "#", imgSrc: "pintarest.png" },
     ]);
     const getImg = (file) => {
-      return new URL("../../../assets/img/${file}", import.meta.url).href;
+      return new URL(`../../../assets/img/${file}`, import.meta.url).href;
     };
     return {
       LinkList,
@@ -93,25 +93,33 @@ export default {
   padding: 20px;
 }
 .left-area {
-  width: 10%;
+  width: 15%;
+  padding: 5% 5%;
 }
 img {
   width: 100%;
 }
+.left-area p {
+  padding-top: 20%;
+}
 .company-name {
   text-align: center;
+  vertical-align: middle;
 }
 .link-area {
   width: 20%;
+  text-align: left;
+  padding: 4% 5%;
 }
 .right-area {
   width: 40%;
+  padding: auto 5%;
 }
 .border-area {
   border: 8px double white;
-  width: 360px;
+  width: 400px;
   padding: 20px;
-  margin: 0 0 0 auto;
+  margin: 40px 0 0 auto;
 }
 .sns-area {
   color: white;
@@ -133,5 +141,8 @@ a {
 .sns-links {
   display: flex;
   margin: 0 0 0 auto;
+}
+.sns-links li {
+  width: 30px;
 }
 </style>

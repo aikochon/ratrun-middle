@@ -1,5 +1,7 @@
 <template>
-  <a :href="href">{{ text }}</a>
+  <div>
+    <a :href="href">{{ text }}</a>
+  </div>
 </template>
   <script>
 export default {
@@ -12,7 +14,8 @@ export default {
 </script>
 <style lang='scss' scoped>
 a {
-  background-color: cadetblue;
+  width: 100%;
   color: white;
+  text-decoration: none;
 }
 </style>
